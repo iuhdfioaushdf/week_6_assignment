@@ -1,2 +1,2 @@
-# week_6_assignment
+# week_7_assignment
 Django Blog
