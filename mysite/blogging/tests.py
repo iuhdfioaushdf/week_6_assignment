@@ -63,6 +63,7 @@ class FrontEndTestCase(TestCase):
                 self.assertNotContains(resp, title)
 
     def test_details_only_published(self):
+
         for count in range(1, 11):
             title = "Post %d Title" % count
             post = Post.objects.get(title=title)
